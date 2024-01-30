@@ -1,14 +1,24 @@
 package controladores;
 
 import java.util.ArrayList;
+
 import java.util.List;
 import java.util.Scanner;
 
 import servicios.operacionImplementacion;
 import servicios.operacionInterfaz;
 
+/**
+ * Clase principal del programa
+ * msm - 300123
+ */
 public class inicio {
 
+	/** 
+	 * Metodo que almacena el orden de la ejecucion
+	 * msm - 300123
+	 * @param args
+	 */
 	public static void main (String[] args) {
 		
 		Scanner scanner = new Scanner(System.in);
@@ -31,7 +41,8 @@ public class inicio {
 		System.out.println(" ");
 		op.intercambiarPosiciones(listaNumeros);
 		System.out.println(" ");
-		op.mostrarListaForeach(listaNumeros);
+		op.mostrarListaPosicionesFor(listaNumeros);
+		
 
 		
 		

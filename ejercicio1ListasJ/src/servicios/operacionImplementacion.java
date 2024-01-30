@@ -43,9 +43,9 @@ public class operacionImplementacion implements operacionInterfaz
 	
 	
 	public void mostrarListaPosicionesFor (List<Integer> listaNumeros) {
-		for (int i=0;i<listaNumeros.size();i++) {
+		for (int i=0;i < listaNumeros.size();i++) {
 			
-			System.out.println(listaNumeros[i]);
+			System.out.println(listaNumeros.get(i));
 		}
 	}
 }
