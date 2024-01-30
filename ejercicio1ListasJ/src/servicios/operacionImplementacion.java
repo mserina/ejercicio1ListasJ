@@ -3,6 +3,10 @@ package servicios;
 import java.util.List;
 import java.util.Scanner;
 
+/**
+ * Clase que contiene la logica de los metodos
+ * msm - 300123
+ */
 public class operacionImplementacion implements operacionInterfaz
 {
 
